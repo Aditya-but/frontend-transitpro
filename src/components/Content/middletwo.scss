@@ -1,0 +1,33 @@
+@import "../Globalstyles/_variables.scss";
+@import "../Globalstyles/mixin.scss";
+.Middle2{
+    @include d-row;
+    background-color: $clr;
+    height: $fo8;
+    padding-top: $fi;
+    font-family:$fnt;
+}
+
+
+.info-Vendor{
+    @include d-col;
+    flex: 50%;
+}
+
+
+.j-con{
+    float: left;
+    font-size: $tw;
+    margin-left: 1.5rem;
+
+}
+
+.k-con{
+    font-size: 1.5rem;
+    margin-left: $tw;
+}
+
+
+.n-container{
+    @include panel-d;   
+}
