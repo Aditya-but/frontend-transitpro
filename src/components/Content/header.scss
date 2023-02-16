@@ -1,0 +1,50 @@
+@import "../Globalstyles/mixin.scss";
+@import "../Globalstyles/_variables.scss";
+
+.include-all{
+    @include d-col;
+    background-color: $clr;
+    height: $fo8;
+
+}
+
+.name {
+    
+    @include d-flex;
+    align-items: center;
+    padding-top: $te;
+    font-size: $fi;
+    font-family:$fnt;
+   
+}
+
+.intro {
+    @include d-flex;
+    text-align: center;
+    font-size: $tw;
+    padding-top: $fi;
+    font-family:$fnt;
+    
+}
+
+.Button{
+    padding: $fi ;
+
+}
+
+.b-con{
+    @include d-flex;
+    gap: $ei;
+    margin-top: $fi;
+    margin-bottom: $tw;
+    font-family:$fnt;
+}
+
+.hireavendor{
+   display: flex;
+}
+
+.joinus{
+    display: flex;
+   
+}

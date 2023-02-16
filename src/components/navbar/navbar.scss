@@ -1,0 +1,26 @@
+@import "../Globalstyles/_variables.scss";
+@import "../Globalstyles/mixin.scss";
+.navbar{
+
+    display: flex;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    margin-top: none;
+    font-family: $fnt;
+
+}
+
+.navItem{
+    display: flex;
+    font-size: 2rem;
+    color: black;
+    font-weight: 490;
+    gap: 1rem;
+    align-items: center ;
+}
+
+.photo{
+    width: 3.5rem;
+    height: 3.5rem;
+}

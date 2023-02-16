@@ -1,0 +1,29 @@
+@import "../Globalstyles/_variables.scss";
+@import "../Globalstyles/mixin.scss";
+.i-all{
+    @include d-col;
+    background-color: $clr;
+    height: $fo8;
+    padding-top: 15rem;
+    font-family:$fnt;
+
+
+}
+
+.c-container{
+    
+    font-size: $thrh;
+    text-align: center;
+}
+
+.p-container{
+    font-size: $twh;
+    text-align: center
+
+}
+
+.mail{
+    font-size: $twh;
+    text-align: center
+
+}

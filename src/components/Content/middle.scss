@@ -1,0 +1,30 @@
+@import "../Globalstyles/_variables.scss";
+@import "../Globalstyles/mixin.scss";
+.Middle{
+    @include d-row;
+    background-color: $clr;
+    height: $fo8;
+    padding-top: $fi;
+}
+
+.info-corpoate{
+    @include d-col;
+    flex: 50%;
+    font-family:$fnt;
+}
+
+.h-con{
+     font-size: $tw;
+     margin-left: 1.5rem;
+   
+}
+
+.i-con{
+    font-size: 1.5rem;
+    margin-left: $tw;
+}
+
+
+.mcontainer{
+    @include panel-d;
+}
