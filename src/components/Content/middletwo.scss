@@ -1,33 +1,78 @@
 @import "../Globalstyles/_variables.scss";
 @import "../Globalstyles/mixin.scss";
-.Middle2{
-    @include d-row;
+.middle-two{
+    display: flex;
+    flex-direction: column;
     background-color: $clr;
-    height: $fo8;
     padding-top: $fi;
     font-family:$fnt;
 }
 
 
 .info-Vendor{
-    @include d-col;
-    flex: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 
-.j-con{
-    float: left;
-    font-size: $tw;
-    margin-left: 1.5rem;
+.title-m2-con{
+    font-size: 2rem;
+    text-align: center;
 
 }
 
 .k-con{
-    font-size: 1.5rem;
-    margin-left: $tw;
+    font-size: 1.3rem;
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem;
+    text-align: center;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
 .n-container{
     @include panel-d;   
+}
+
+@media screen and (min-width: 720px) {
+    .n-container {
+    @include table-res-720;
+    }
+
+    .k-con{
+        @include infor-con-res-720;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .middle-two{
+        flex-direction: row;
+    }
+
+    
+    .title-m2-con{
+        @include title-mod;
+    }
+
+    .info-Vendor{
+        flex: 70%;
+    }
+
+    .n-container{
+       @include table-mar-res-1024;
+    }
+
+    .k-con{
+        @include infor-con-res-1024;
+    }
+
+
 }

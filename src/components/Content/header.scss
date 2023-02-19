@@ -1,40 +1,42 @@
 @import "../Globalstyles/mixin.scss";
 @import "../Globalstyles/_variables.scss";
 
-.include-all{
-    @include d-col;
-    background-color: $clr;
-    height: $fo8;
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFAE42;
+    width: 100%;
+
 
 }
 
 .name {
-    
     @include d-flex;
     align-items: center;
     padding-top: $te;
-    font-size: $fi;
+    font-size: 3.5rem;
     font-family:$fnt;
-   
 }
 
 .intro {
     @include d-flex;
     text-align: center;
-    font-size: $tw;
+    font-size: 1.5rem;
     padding-top: $fi;
     font-family:$fnt;
-    
 }
 
-.Button{
-    padding: $fi ;
+.btn{
+    padding: .5rem ;
+    font-size: 1.5rem;
+   
 
 }
 
-.b-con{
+.hire-b-con{
     @include d-flex;
-    gap: $ei;
+    flex-direction: column;
+    gap: 3rem;
     margin-top: $fi;
     margin-bottom: $tw;
     font-family:$fnt;
@@ -42,9 +44,59 @@
 
 .hireavendor{
    display: flex;
+   justify-content: center;
 }
 
 .joinus{
     display: flex;
-   
+    justify-content: center;
+}
+
+@media screen and (min-width: 720px) {
+  
+    .name {
+        @include d-flex;
+        align-items: center;
+        padding-top: $te;
+        font-size: 3.8rem;
+        font-family:$fnt;
+    }
+
+    .intro {
+        @include d-flex;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+        font-family:$fnt;
+    }
+    .hire-b-con{
+        @include d-flex;
+        flex-direction: row;
+        gap: 3rem;
+        margin-top: 2.5rem;
+        margin-bottom: $tw;
+        font-family:$fnt;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .name{
+        padding-top: 10rem;
+        font-size: 4rem;
+    }
+
+    .intro{
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+
+    .hire-b-con{
+        margin-top: 10rem;
+    }
+
+    .btn{
+        padding: .5rem ;
+        font-size: 1.5rem;
+    }
 }

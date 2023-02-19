@@ -14,8 +14,50 @@
 }
 
 @mixin panel-d{
+    margin-top: 3rem;
+    margin-left: 2.5rem;
     margin-right: 2.5rem;
+    font-size: 1.3rem;
     background-color: antiquewhite;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: .5rem;
+}
+
+@mixin table-res-720{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1.3rem;
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: .5rem;
+}
+
+@mixin infor-con-res-720{
+    font-size: 1.5rem;
+    padding-left: 3rem ;
+    padding-right: 3rem;
+    text-align: center;
+
+}
+
+@mixin table-mar-res-1024{
+    flex: 30%;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+
+@mixin infor-con-res-1024{
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+    padding-left: 2rem ;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+@mixin title-mod{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 1rem;
 }

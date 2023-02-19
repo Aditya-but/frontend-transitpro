@@ -3,8 +3,8 @@
 .i-all{
     @include d-col;
     background-color: $clr;
-    height: $fo8;
-    padding-top: 15rem;
+    height: 35rem;
+    padding-top: 10rem;
     font-family:$fnt;
 
 
@@ -12,7 +12,7 @@
 
 .c-container{
     
-    font-size: $thrh;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -23,7 +23,22 @@
 }
 
 .mail{
-    font-size: $twh;
+    font-size: 2rem;
     text-align: center
 
+}
+
+@media screen and (min-width: 1024px){
+    .i-all{
+        height: 48rem;
+    }
+    .c-container{
+        font-size: 3rem;
+    }
+    .p-container{
+        font-size: 3.5rem;
+    }
+    .mail{
+        font-size:2.5rem ;
+    }
 }

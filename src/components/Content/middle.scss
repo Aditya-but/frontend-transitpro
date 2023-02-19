@@ -1,30 +1,77 @@
 @import "../Globalstyles/_variables.scss";
 @import "../Globalstyles/mixin.scss";
-.Middle{
-    @include d-row;
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
     background-color: $clr;
-    height: $fo8;
     padding-top: $fi;
+    font-family: $fnt;
 }
 
+
 .info-corpoate{
-    @include d-col;
-    flex: 50%;
+    display: flex;
+    flex-direction: column;
     font-family:$fnt;
 }
 
-.h-con{
-     font-size: $tw;
-     margin-left: 1.5rem;
+.title-con{
+     font-size: 2rem;
+     text-align: center;
    
 }
 
-.i-con{
-    font-size: 1.5rem;
-    margin-left: $tw;
+.info-con{
+    font-size: 1.3rem;
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem;
+    text-align: center
+}
+.login-m{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
-.mcontainer{
+.table-container{
     @include panel-d;
+}
+
+
+@media screen and (min-width: 720px) {
+    .table-container {
+        @include table-res-720;
+    }
+
+    .info-con{
+        @include infor-con-res-720;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .middle-container{
+        flex-direction: row;
+    }
+    .info-corpoate{
+        flex: 70%;
+    }
+    .table-container {
+        @include table-mar-res-1024;
+    }
+
+    .title-con{
+        @include title-mod;
+      
+   }
+
+    .info-con{
+        @include infor-con-res-1024;
+    }
+   
 }

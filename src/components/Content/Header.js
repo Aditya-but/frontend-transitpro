@@ -18,13 +18,13 @@ const Header = () => {
     
   
   return (
-    <div className='include-all'>
+    <div className='header'>
      <div  className='container'>
         <div className='name'>  Transit Pro </div>
         <div  className='intro'>
           RUN YOUR LOGISTIC RFQ'S/TENDERS ON OUR PLATFORM &amp; GET COMPETITIVE BIDS FROM 1000+ VARIED <br></br>3PL VENDORS
         </div>
-     <div className='b-con'>
+     <div className='hire-b-con'>
       <div className='hireavendor'>
       <button type="button"  class="btn btn-primary btn-lg" > Hire A Vendor </button>
       </div>

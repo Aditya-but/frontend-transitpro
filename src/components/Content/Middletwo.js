@@ -3,15 +3,15 @@ import "./middletwo.scss"
 
 const Middletwo = () => {
   return (
-    <div  className='Middle2'>
+    <div  className='middle-two'>
        <div className='info-Vendor'>
        
-       <div className='j-con'>Transit pro is here to give you fair business opportunities<br></br> and democratize the growing logistics sector:</div>
+       <div className='title-m2-con'>Transit pro is here to give you fair  business opportunities and democratize the growing logistics sector :</div>
         <div className='k-con'>
-           <br/>  1. Find out business opportunities in your region ( rfq’s/tenders or adhoc/real-time delivery requirements available) and bid for these through our platform. <br/>
-            <br/>2. We assist you in the bidding process and help you get in touch with the company official. <br/>
-            <br/> 3. You get a fair chance to win bids on the basis of your merit &amp; the rates offered by you.<br/>
-            <br/>4. We help you become authorized vendors of delivery companies by<br></br> helping you find and get through the onboarding process.<br/>
+           <br/>Find out business opportunities in your region (rfq’s/tenders or adhoc/real-time delivery requirements available) and bid for these through our platform. <br/>
+            <br/>We assist you in the bidding process and help you get in touch with the company official. <br/>
+            <br/>You get a fair chance to win bids on the basis of your merit &amp; the rates offered by you.<br/>
+            <br/>We help you become authorized vendors of delivery companies by helping you find and get through the onboarding process.<br/>
             </div>
      </div>
      <div>
@@ -36,9 +36,11 @@ const Middletwo = () => {
        </div>
           <button type="submit" class="btn btn-primary">Register</button>
          </form>    <hr></hr>
-         <div id="emailHelp" class="form-text">Already A User?</div>
-         <br></br>
+
+         <div className="login">
+         <span>Already A User?</span>
          <button type="submit" class="btn btn-primary" > Login</button>
+         </div>
          
          </div>
          </div>
