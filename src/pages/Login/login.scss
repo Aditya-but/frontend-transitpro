@@ -1,0 +1,70 @@
+.login{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: whitesmoke ;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    height: 57rem;
+
+}
+
+.in-log{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: .1rem;
+}
+
+
+.login1{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.setting{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    
+}
+.submit{
+    display: flex;
+     justify-content: center;
+   
+   
+}
+
+.btn{
+    padding: .5rem;
+    font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 720px) {
+    .setting{
+        padding-left: 10rem;
+        padding-right: 6rem;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+
+    .in-log{
+        width: none;
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+    .setting{
+        padding-left: 10rem;
+        padding-right: 6rem;
+        font-size: 1.5rem;
+    }
+
+    
+}

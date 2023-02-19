@@ -37,7 +37,7 @@ const Middletwo = () => {
           <button type="submit" class="btn btn-primary">Register</button>
          </form>    <hr></hr>
 
-         <div className="login">
+         <div className="login-m-2">
          <span>Already A User?</span>
          <button type="submit" class="btn btn-primary" > Login</button>
          </div>

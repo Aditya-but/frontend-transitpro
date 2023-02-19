@@ -1,9 +1,10 @@
 
 import "./middle.scss"
+import { useNavigate } from "react-router-dom";
 
 
 const Middle = () => {
-  
+   const navigate = useNavigate(null)
 
   return (
     <div className ='middle-container'>
@@ -43,7 +44,7 @@ const Middle = () => {
          </form>    <hr></hr>
          <div className="login-m">
          <span>Already A User?</span>
-         <button type="submit" class="btn btn-primary" >Login</button>
+         <button type="submit" class="btn btn-primary" onClick={()=>{navigate('/Login')}}>Login</button>
          </div>
          
          </div>
